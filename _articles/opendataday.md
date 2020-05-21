@@ -19,7 +19,7 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/logo-odd.png&w=668&h=375&output=png&fit=inside">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/logo-odd.png&w=668&h=375&output=png&fit=inside" class="media-preview">
   Open Data Day logo
   <p markdown="1" class="pquote-credit">
    ["Download package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
@@ -27,7 +27,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/mark-odd.png&w=668&h=375&output=png&fit=inside">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/mark-odd.png&w=668&h=375&output=png&fit=inside" class="media-preview">
   Open Data Day mark
   <p markdown="1" class="pquote-credit">
    ["Download package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
@@ -35,7 +35,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/banner-odd.png&w=668&h=375&output=png&fit=inside">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/banner-odd.png&w=668&h=375&output=png&fit=inside" class="media-preview">
   Open Data Day banner
   <p markdown="1" class="pquote-credit">
    ["Download package"](//a.codeforcroatia.org/assets/media/opendataday.zip)

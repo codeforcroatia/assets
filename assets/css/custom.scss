@@ -46,6 +46,17 @@ blockquote {
     }
   }
 
+  img.media-preview {
+    border: 3px solid #F3F3F3;
+    height: 375px;
+    width: 668px;
+    display: block;
+    margin: 0 auto $spacer-2;
+    @include breakpoint(md) {
+      margin: 0 auto $spacer-4;
+    }
+  }
+
 }
 
 .pquote-credit {

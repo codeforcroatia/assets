@@ -2,7 +2,7 @@
 lang: en
 title: Open Data Day
 description: Event Open Data Day Logos and Usage guidelines.
-class: building
+class: opendataday
 toc:
   download: "Download"
   do-these-awesome-things: "Do these awesome things"
@@ -19,26 +19,26 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/logo-odd.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/logo-odd.png&w=668&h=375&output=png&fit=cover">
   Open Data Day logo
   <p markdown="1" class="pquote-credit">
-   ["Download logo package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
+   ["Download package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
   </p>
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/mark-odd.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/mark-odd.png&w=668&h=375&output=png&fit=cover">
   Open Data Day mark
   <p markdown="1" class="pquote-credit">
-   ["Download mark package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
+   ["Download package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
   </p>
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/banner.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/opendataday/banner.png&w=668&h=375&output=png&fit=cover">
   Open Data Day banner
   <p markdown="1" class="pquote-credit">
-   ["Download banner package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
+   ["Download package"](//a.codeforcroatia.org/assets/media/opendataday.zip)
   </p>
 </aside>
 

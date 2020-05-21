@@ -2,7 +2,7 @@
 lang: en
 title: Imamo pravo znati
 description: Project Imamo pravo znati Logos and Usage guidelines.
-class: leadership
+class: imamopravoznati
 toc:
   download: "Download"
   do-these-awesome-things: "Do these awesome things"
@@ -19,18 +19,18 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/imamopravoznati-logo-3339px.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/imamopravoznati-logo-3339px.png&w=668&h=375&output=png&fit=cover">
   Imamo pravo znati logo
   <p markdown="1" class="pquote-credit">
-   ["Download logo package"](//a.codeforcroatia.org/assets/media/imamopravoznati.zip)
+   [Download package](//a.codeforcroatia.org/assets/media/imamopravoznati.zip)
   </p>
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/brain-imamopravoznati-290px.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/brain-imamopravoznati-290px.png&w=668&h=375&output=png&fit=cover">
   Imamo pravo znati brain
   <p markdown="1" class="pquote-credit">
-   ["Download brain package"](//a.codeforcroatia.org/assets/media/imamopravoznati.zip)
+   [Download package](//a.codeforcroatia.org/assets/media/imamopravoznati.zip)
   </p>
 </aside>
 

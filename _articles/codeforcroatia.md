@@ -2,7 +2,7 @@
 lang: en
 title: Code for Croatia
 description: Our Logos and Usage guidelines.
-class: best-practices
+class: codeforcroatia
 toc:
   download: "Download"
   do-these-awesome-things: "Do these awesome things"
@@ -19,26 +19,26 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=cover">
   Code for Croatia logo
   <p markdown="1" class="pquote-credit">
-   ["Download logo package"](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
+   [Download package](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
   </p>
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=cover">
   Code for Croatia mark
   <p markdown="1" class="pquote-credit">
-   ["Download mark package"](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
+   [Download package](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
   </p>
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=cover" class="pquote-avatar" alt="avatar">
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=cover">
   Code for Croatia cubes
   <p markdown="1" class="pquote-credit">
-   ["Download cubes package"](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
+   [Download package](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
   </p>
 </aside>
 

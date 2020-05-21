@@ -1,0 +1,56 @@
+title: Our Assets and Usage Guidelines
+description: Assets and Usage Guidelines are a collection of Code for Croatia logos and other project web resources that describe how to efficiently use them.
+
+exclude:
+  - bin
+  - CNAME
+  - docs
+  - Gemfile*
+  - node_modules
+  - package.json
+  - Rakefile
+  - README.md
+  - script
+  - test
+  - vendor
+
+permalink: /:path/
+
+collections:
+  articles:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/cards/default.png
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+
+plugins:
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sass_dir: assets/css/
+  style: :compressed
+  load_paths:
+    - node_modules
+
+logo: /assets/images/cards/default.png
+
+github:
+  repository_nwo: codeforcroatia/assets
+
+twitter:
+  username: codeforcroatia
+
+facebook:
+  publisher: https://www.facebook.com/ProgramirajzaHrvatsku/

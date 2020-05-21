@@ -19,7 +19,7 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=inside"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Code for Croatia logo
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
@@ -27,7 +27,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=inside"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Code for Croatia mark
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)
@@ -35,7 +35,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=inside"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-cfc-500px.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Code for Croatia cubes
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/codeforcroatia.zip)

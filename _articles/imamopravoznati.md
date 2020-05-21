@@ -19,7 +19,7 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/imamopravoznati-logo-3339px.png&w=668&h=375&output=png&fit=inside"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/imamopravoznati-logo-3339px.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Imamo pravo znati logo
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/imamopravoznati.zip)
@@ -27,7 +27,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/brain-imamopravoznati-290px.png&w=668&h=375&output=png&fit=inside"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/imamopravoznati/brain-imamopravoznati-290px.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Imamo pravo znati brain
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/imamopravoznati.zip)

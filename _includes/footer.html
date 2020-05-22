@@ -10,10 +10,11 @@
           <p class="mb-3 p-large">{{ t.footer.contribute.description }}</p>
           <p>
             {% if page.layout == "index" %}
-              {% assign page.path = "docs" %}
+              {% assign tpath = "docs" %}
             {% else %}
+              {% assign tpath = page.path %}
             {% endif %}
-            <a data-proofer-ignore href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ page.path }}" class="btn btn-outline">
+            <a data-proofer-ignore href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ tpath }}" class="btn btn-outline">
               {{ t.footer.contribute.button }}
             </a>
           </p>

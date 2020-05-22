@@ -11,7 +11,8 @@
           <p>
             {% if page.layout == "index" %}
               {% assign page.path = "docs" %}
-            {endif}
+            {% else %}
+            {% endif %}
             <a data-proofer-ignore href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ page.path }}" class="btn btn-outline">
               {{ t.footer.contribute.button }}
             </a>

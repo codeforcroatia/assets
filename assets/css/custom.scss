@@ -47,9 +47,10 @@ blockquote {
   }
 
   img.media-preview {
+    object-fit: contain;
     border: 3px solid #F3F3F3;
     height: 375px;
-    width: 668px;
+    width: 100%;
     display: block;
     margin: 0 auto $spacer-2;
     @include breakpoint(md) {

@@ -9,6 +9,9 @@
           <h3 class="h3-mktg mb-3">{{ t.footer.contribute.heading }}</h3>
           <p class="mb-3 p-large">{{ t.footer.contribute.description }}</p>
           <p>
+            {% if page.layout == "index" %}
+              {% assign page.path = "docs" %}
+            {endif}
             <a data-proofer-ignore href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ page.path }}" class="btn btn-outline">
               {{ t.footer.contribute.button }}
             </a>

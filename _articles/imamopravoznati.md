@@ -10,7 +10,7 @@ toc:
   naming-projects-and-products: "Naming projects and products"
   please-contact-us: "Please contact us"
 order: 2
-image: /assets/images/cards/leadership.png
+image: /assets/images/cards/imamopravoznati.png
 related:
   - codeforcroatia
   - opendataday

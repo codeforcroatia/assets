@@ -9,7 +9,7 @@ toc:
   please-dont-do-these-things: "Please don’t do these things"
   naming-projects-and-products: "Naming projects and products"
   please-contact-us: "Please contact us"
-order: 2
+order: 3
 image: /assets/images/cards/building.png
 related:
   - codeforcroatia

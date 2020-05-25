@@ -19,7 +19,7 @@ related:
 ## Download
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/logo-oz-hires.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/openzagreb/logo-oz-hires.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Open Zagreb logo
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/openzagreb.zip)
@@ -27,7 +27,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/mark-oz-hires.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/openzagreb/mark-oz-hires.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Open Zagreb mark
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/openzagreb.zip)
@@ -35,7 +35,7 @@ related:
 </aside>
 
 <aside markdown="1" class="pquote">
-  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/codeforcroatia/kula-oz-hires.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
+  <img src="https://images.weserv.nl/?url=//a.codeforcroatia.org/assets/media/openzagreb/kula-oz-hires.png&w=668&h=375&output=png&fit=inside" class="media-preview"><br>
   Open Zagreb tower
   <p markdown="1" class="pquote-credit">
    [Download package](//a.codeforcroatia.org/assets/media/openzagreb.zip)

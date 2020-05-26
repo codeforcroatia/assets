@@ -29,4 +29,4 @@ See [notices](notices.md) for complete details, including attribution guidelines
 
 ## Acknowledgments
 
-Inspiration for this comes from a.okfn.org.
+Inspiration for this comes from a.okfn.org. This repository, it's code and some multimedia are based on [github.com/github/opensource.guide](https://github.com/github/opensource.guide). Content is used under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license and code is released under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).

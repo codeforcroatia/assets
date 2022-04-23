@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Code for Croatia Expanding Panel</title>
+    <title>Code for Croatia gornji izbornik</title><!-- EN: Code for Croatia Expanding Panel -->
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="assets/css/frontend.css"/>
     <link rel="stylesheet" href="//cdn.rawgit.com/okfn/app-theme/v2.1.0/css/main.css">
-    <link rel="canonical" href="https://a.codeforcroatia.org/html/cfc/panel">
+    <link rel="canonical" href="https://a.codeforcroatia.org/assets/html/cfc/panel">
     <style>
       .navbar-brand .glyphicon {
         padding: 10px 8px;
@@ -27,12 +27,12 @@
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div id="ok-panel-wrapper">
-          <a class="white ok-ribbon" href="https://okfn.org/"><img src="assets/images/oki-ribbon.png" alt="Open Knowledge"></a>
+          <a class="white ok-ribbon" href="https://codeforcroatia.org"><img src="assets/html/cfc/panel/assets/images/oki-ribbon.png" alt="Code for Croatia"></a>
         </div>
         <div class="navbar-header">
           <a class="navbar-brand has-icon" href="/">
             <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-            <span class="text">Expanding Panel</span>
+            <span class="text">Gornji izbornik</span>
           </a>
         </div>
       </div>
@@ -40,52 +40,53 @@
 
     <div class="jumbotron inverse icon">
       <div class="container">
-        <h1>OK Panel</h1>
-        <p>Open Knowledge Ribbon &amp; Expanding Panel.</p>
+        <h1>CfC Panel</h1>
+        <p>Code for Croatia vrpca &amp; gornji izbornik kao proširujuća ploča</p><!-- EN: Code for Croatia Ribbon & Expanding Panel -->
       </div>
       <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
     </div>
 
     <div class="container">
       <div class="row">
-        <article  class="col-md-9">
-          <p>Once applied to your website, the Open Knowledge Ribbon will look like this:</p>
-          <p><a class="ok-ribbon"><img src="assets/images/oki-ribbon.png" alt="Open Knowledge"></a></p>
+        <article class="col-md-9">
+          <p>Kada se primijeni na vašu internetsku stranicu, Code for Croatia traka izgledat će ovako:</p>
+          <p><a class="ok-ribbon"><img src="assets/images/oki-ribbon.png" alt="Code for Croatia"></a></p>
           <h2>CSS</h2>
-          <p>Add the below code to the <code>&lt;head&gt;</code> section of your webpage, to include a small stylesheet:</p>
-          <pre><code class="language-markup">&lt;link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css"/&gt;</code></pre>
+          <p>Dodajte kod u nastavku u <code>&lt;head&gt;</code> odjeljak svoje internetske stranice, kako biste uključili malu datoteku s definicijom stilova:</p>
+          <pre><code class="language-markup">&lt;link rel="stylesheet" href="//a.codeforcroatia.org/assets/html/cfc/panel/assets/css/frontend.css"/&gt;</code></pre>
           <hr>
           <h2>JavaScript</h2>
-          <p>Add the below JavaScript:</p>
-          <pre><code class="language-markup">&lt;script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js" type="text/javascript"&gt;&lt;/script&gt;</code></pre>
+          <p>Dodajte JavaScript prikazan ispod:</p>
+          <pre><code class="language-markup">&lt;script src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/js/frontend.js" type="text/javascript"&gt;&lt;/script&gt;</code></pre>
           <hr>
           <h2>HTML</h2>
-          <p>Lastly, there is the HTML. Where and how you add this depends slightly on your website, but the are two basic options.</p>
-          <h3>Fixed Position</h3>
-          <p>This is probably the most straightforward method, just add the following snippet immediately after the opening <code>&lt;body&gt;</code> tag:</p>
-          <pre><code class="language-markup">&lt;div id="ok-panel-wrapper" class="fixed-ok-panel"&gt;&lt;div id="ok-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;a class="ok-ribbon" href="//okfn.org/"&gt;&lt;img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
-          <p><strong>Note:</strong> this will cause the ribbon to appear in front of whatever is on the page. To avoid this, see below method.</p>
-          <h3>Relative Position</h3>
-          <p>This will add the ribbon into the flow of the document. First add the following immediately after the opening <code>&lt;body&gt;</code> tag:</p>
-          <pre><code class="language-markup">&lt;div id="ok-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;</code></pre>
-          <p>Then add this where you want the ribbon to appear (should be near the top of the page):</p>
-          <pre><code class="language-markup">&lt;div id="ok-panel-wrapper"&gt;&lt;a class="ok-ribbon" href="//okfn.org/"&gt;&lt;img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
+          <p>Na kraju, tu je HTML. Gdje i kako ćete to dodati malo ovisi o vašoj internetskoj stranici, ali postoje dvije osnovne opcije.</p>
+          <h3>Fiksni položaj</h3>
+          <p>Ovo je vjerojatno najjednostavniji način, samo dodajte sljedeći isječak odmah nakon otvorene oznake <code>&lt;body&gt;</code>:</p>
+          <pre><code class="language-markup">&lt;div id="ok-panel-wrapper" class="fixed-ok-panel"&gt;&lt;div id="ok-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;a class="ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/oki-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
+          <p><strong>Napomena:</strong> to će uzrokovati da se vrpca pojavi ispred svega što se nalazi na stranici. Da biste to izbjegli, pogledajte drugu metodu u nastavku.</p>
+          <h3>Relativni položaj</h3>
+          <p>Ovo će dodati vrpcu unutar dokumenta. Prvo dodajte sljedeće odmah nakon otvorene oznake <code>&lt;body&gt;</code>:</p>
+          <pre><code class="language-markup">&lt;div id="ok-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;</code></pre>
+          <p>Zatim dodajte ovo gdje želite da se vrpca prikazuje (treba biti pri vrhu stranice):</p>
+          <pre><code class="language-markup">&lt;div id="ok-panel-wrapper"&gt;&lt;a class="ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/oki-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
           <hr>
-          <h2>Colour Options</h2>
-          <p>With the above, default implementation, the ribbon will be green. There are also black and white options. For white on black add <code>black</code> to the <code>ok-ribbon</code> class, like so:</p>
-          <pre><code class="language-markup">&lt;a class="black ok-ribbon" href="//okfn.org/"&gt;&lt;img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge"&gt;&lt;/a&gt;</code></pre>
-          <p>and for black on white, add <code>white</code>:</p>
-          <pre><code class="language-markup">&lt;a class="white ok-ribbon" href="//okfn.org/"&gt;&lt;img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge"&gt;&lt;/a&gt;</code></pre>
+          <h2>Opcije boja</h2>
+          <p>Uz gornju, zadanu implementaciju, vrpca će biti zelena. Postoje i crno-bijele opcije. Za bijelo na crnom dodajte <code>black</code> u klasu <code>ok-ribbon</code>, ovako:</p>
+          <pre><code class="language-markup">&lt;a class="black ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/oki-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;</code></pre>
+          <p>a za crno na bijelo dodajte <code>white</code>:</p>
+          <pre><code class="language-markup">&lt;a class="white ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/oki-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;</code></pre>
         </article>
         <aside class="col-md-3">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="panel-title">Want the Code?</h3>
+              <h3 class="panel-title">Želiš programirati?</h3><!-- EN: Want code? -->
             </div>
             <div class="panel-body">
-              <a href="https://github.com/okfn/a/tree/master/a/html/oki/panel/">View on Github</a>
+              <a href="https://github.com/codeforcroatia/assets/tree/gh-pages/assets/html/cfc/panel">Pogledaj na Githubu</a><!-- EN: View on Github -->
             </div>
           </div>
+          <!--
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title">Using Wordpress?</h3>
@@ -94,35 +95,36 @@
               <a href="https://github.com/okfn/ok-panel/tree/wordpress">Get plugin here</a>
             </div>
           </div>
+          -->
         </aside>
       </div>
     </div>
 
     <footer class="site-footer">
       <div class="container">
-        <a class="footer-logo" href="https://okfn.org/">
-          <img src="https://a.okfn.org/img/oki/landscape-white-468x122.png" alt="Open Knowledge International">
+        <a class="footer-logo" href="https://codeforcroatia.org">
+          <img src="https://a.codeforcroatia.org/assets/media/oki/landscape-white-468x122.png" alt="Code for Croatia">
         </a>
 
         <div class="footer-links">
           <ul>
-            <li><a href="https://okfn.org/privacy-policy/">Privacy policy</a></li>
-            <li><a href="https://okfn.org/ip-policy/">IP policy</a></li>
-            <li><a href="https://okfn.org/cookie-policy/">Cookie policy</a></li>
-            <li><a href="https://okfn.org/terms-of-use/">Terms of use</a></li>
+            <li><a href="https://codeforcroatia.org/privacy">Politika privatnosti</a></li><!-- EN: Privacy policy -->
+            <!--<li><a href="https://codeforcroatia.org/ip-policy/">IP policy</a></li>--><!-- EN: IP policy -->
+            <li><a href="https://codeforcroatia.org/privacy#cookie-policy">Kolačići</a></li><!-- EN: Cookie policy -->
+            <li><a href="https://codeforcroatia.org/tos">Uvjeti korištenja</a></li><!-- EN: Terms of use -->
           </ul>
 
           <ul class="footer-social">
-            <li><a href="https://facebook.com/OKFNetwork">
+            <li><a href="https://facebook.com/programirajzahrvatsku">
               <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
               </a></li>
             <li>
-              <a href="https://twitter.com/okfn">
+              <a href="https://twitter.com/codeforcroatia">
                 <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/user/openknowledgefdn">
+              <a href="https://www.youtube.com/channel/UC7prtSlc8O1YzSwiL8CI6wg">
                 <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
               </a>
             </li>
@@ -131,8 +133,8 @@
 
         <hr>
 
-        <p>Open Knowledge Foundation is incorporated in England and Wales as a company Limited by guarantee. Company no. 05133759. Registered address: St. John’s Innovation Centre, Cowley Road, Cambridge, CB4 0WS, UK. VAT Registration no. GB 984404989.</p>
-
+        <p>Code for Croatia je neformalna inicijativa pozitivnih ljudi koji žele napraviti promjenu. Otključavamo zaključane podatke. Bavimo se civilnim hakiranjem, radimo društveno korisne projekte i uvijek smo otvoreni za nove ideje. Code for Croatia je križanje aktivizma, IT-a i istraživačkog novinarstva.</p>
+        <!-- EN: Code for Croatia Foundation is incorporated in England and Wales as a company Limited by guarantee. Company no. 05133759. Registered address: St. John’s Innovation Centre, Cowley Road, Cambridge, CB4 0WS, UK. VAT Registration no. GB 984404989. -->
       </div>
     </footer>
 
@@ -149,7 +151,7 @@
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-33874954-3','auto');ga('send','pageview');
+      ga('create','UA-47341762-4','auto');ga('send','pageview');
     </script>
   </body>
 </html>

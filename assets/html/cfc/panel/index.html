@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="assets/css/frontend.css"/>
-    <link rel="stylesheet" href="//cdn.rawgit.com/okfn/app-theme/v2.1.0/css/main.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v0.0.1/css/main.css">
     <link rel="canonical" href="https://a.codeforcroatia.org/assets/html/cfc/panel">
     <style>
       .navbar-brand .glyphicon {
@@ -22,12 +22,12 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div id="ok-panel" class="closed"><div class="container"><iframe src="panel.html" scrolling="no"></iframe></div></div>
+    <div id="cfc-panel" class="closed"><div class="container"><iframe src="panel.html" scrolling="no"></iframe></div></div>
 
     <nav class="navbar navbar-static-top">
       <div class="container">
-        <div id="ok-panel-wrapper">
-          <a class="white ok-ribbon" href="https://codeforcroatia.org"><img src="assets/images/cfc-ribbon.png" alt="Code for Croatia"></a>
+        <div id="cfc-panel-wrapper">
+          <a class="white cfc-ribbon" href="https://codeforcroatia.org"><img src="assets/images/cfc-ribbon.png" alt="Code for Croatia"></a>
         </div>
         <div class="navbar-header">
           <a class="navbar-brand has-icon" href="/">
@@ -50,7 +50,7 @@
       <div class="row">
         <article class="col-md-9">
           <p>Kada se primijeni na vašu internetsku stranicu, Code for Croatia traka izgledat će ovako:</p>
-          <p><a class="ok-ribbon"><img src="assets/images/cfc-ribbon.png" alt="Code for Croatia"></a></p>
+          <p><a class="cfc-ribbon"><img src="assets/images/cfc-ribbon.png" alt="Code for Croatia"></a></p>
           <h2>CSS</h2>
           <p>Dodajte kod u nastavku u <code>&lt;head&gt;</code> odjeljak svoje internetske stranice, kako biste uključili malu datoteku s definicijom stilova:</p>
           <pre><code class="language-markup">&lt;link rel="stylesheet" href="//a.codeforcroatia.org/assets/html/cfc/panel/assets/css/frontend.css"/&gt;</code></pre>
@@ -63,19 +63,19 @@
           <p>Na kraju, tu je HTML. Gdje i kako ćete to dodati malo ovisi o vašoj internetskoj stranici, ali postoje dvije osnovne opcije.</p>
           <h3>Fiksni položaj</h3>
           <p>Ovo je vjerojatno najjednostavniji način, samo dodajte sljedeći isječak odmah nakon otvorene oznake <code>&lt;body&gt;</code>:</p>
-          <pre><code class="language-markup">&lt;div id="ok-panel-wrapper" class="fixed-ok-panel"&gt;&lt;div id="ok-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;a class="ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
+          <pre><code class="language-markup">&lt;div id="cfc-panel-wrapper" class="fixed-cfc-panel"&gt;&lt;div id="cfc-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;a class="cfc-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
           <p><strong>Napomena:</strong> to će uzrokovati da se vrpca pojavi ispred svega što se nalazi na stranici. Da biste to izbjegli, pogledajte drugu metodu u nastavku.</p>
           <h3>Relativni položaj</h3>
           <p>Ovo će dodati vrpcu unutar dokumenta. Prvo dodajte sljedeće odmah nakon otvorene oznake <code>&lt;body&gt;</code>:</p>
-          <pre><code class="language-markup">&lt;div id="ok-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;</code></pre>
+          <pre><code class="language-markup">&lt;div id="cfc-panel" class="closed"&gt;&lt;div class="container"&gt;&lt;iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;</code></pre>
           <p>Zatim dodajte ovo gdje želite da se vrpca prikazuje (treba biti pri vrhu stranice):</p>
-          <pre><code class="language-markup">&lt;div id="ok-panel-wrapper"&gt;&lt;a class="ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
+          <pre><code class="language-markup">&lt;div id="cfc-panel-wrapper"&gt;&lt;a class="cfc-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;&lt;/div&gt;</code></pre>
           <hr>
           <h2>Opcije boja</h2>
-          <p>Uz gornju, zadanu implementaciju, vrpca će biti zelena. Postoje i crno-bijele opcije. Za bijelo na crnom dodajte <code>black</code> u klasu <code>ok-ribbon</code>, ovako:</p>
-          <pre><code class="language-markup">&lt;a class="black ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;</code></pre>
+          <p>Uz gornju, zadanu implementaciju, vrpca će biti zelena. Postoje i crno-bijele opcije. Za bijelo na crnom dodajte <code>black</code> u klasu <code>cfc-ribbon</code>, ovako:</p>
+          <pre><code class="language-markup">&lt;a class="black cfc-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;</code></pre>
           <p>a za crno na bijelo dodajte <code>white</code>:</p>
-          <pre><code class="language-markup">&lt;a class="white ok-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;</code></pre>
+          <pre><code class="language-markup">&lt;a class="white cfc-ribbon" href="//codeforcroatia.org/"&gt;&lt;img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"&gt;&lt;/a&gt;</code></pre>
         </article>
         <aside class="col-md-3">
           <div class="panel panel-info">
@@ -92,7 +92,7 @@
               <h3 class="panel-title">Using Wordpress?</h3>
             </div>
             <div class="panel-body">
-              <a href="https://github.com/okfn/ok-panel/tree/wordpress">Get plugin here</a>
+              <a href="https://github.com/okfn/cfc-panel/tree/wordpress">Get plugin here</a>
             </div>
           </div>
           -->
@@ -151,7 +151,9 @@
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-47341762-4','auto');ga('send','pageview');
+      ga('create','UA-47341762-4','auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send','pageview');
     </script>
   </body>
 </html>

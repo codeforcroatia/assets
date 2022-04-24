@@ -1,8 +1,8 @@
 var documentWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 var documentHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-var container = document.getElementById('ok-panel-wrapper');
-var panel = document.getElementById('ok-panel');
-var action = document.querySelector('a.ok-ribbon');
+var container = document.getElementById('cfc-panel-wrapper');
+var panel = document.getElementById('cfc-panel');
+var action = document.querySelector('a.cfc-ribbon');
 var breakData = container.dataset.breakpoint;
 var activeBreakpoint = breakData ? breakData.replace('px', '') : '560';
 
@@ -22,5 +22,5 @@ if (documentWidth > activeBreakpoint) {
       panel.classList.add('open');
     }
   });
-  document.body.classList.add('has-ok-panel');
+  document.body.classList.add('has-cfc-panel');
 }

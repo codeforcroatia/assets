@@ -1,25 +1,162 @@
 <!doctype html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Code for Croatia Cookie Bar</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Code for Croatia cookie traka</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
-    <body>
+    <!-- CfC Panel CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeforcroatia/assets/assets/html/cfc/panel/assets/css/frontend.css">
 
-      <!-- Begin CfC Cookie Bar -->
-      <script type="text/javascript">
-          window.cookieconsent_options = {"message":"Ova internetska stranica koristi kolačiće. Za više informacija pogledajte našu ","dismiss":"U redu, shvaćam","learnMore":"politiku o kolačićima.","link":"https://codeforcroatia.org/privacy#cookie"};
-      </script>
-      <script type="text/javascript" src="js/cookie-bar.js"></script>
-      <!-- with CDN:
-      <script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeforcroatia/assets@latest/assets/html/cfc/cookie-bar/js/cookie-bar.js"></script>
-      -->
-      <!-- End CfC Cookie Bar -->
+    <!-- CfC App Theme CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v1/css/main.css">
 
-    </body>
+    <!-- Optional Modernizr -->
+    <script src="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v1/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <link rel="canonical" href="https://a.codeforcroatia.org/assets/html/cfc/cookie-bar">
+    <style>
+      .navbar-brand .glyphicon {
+        padding: 10px 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="cfc-panel" class="closed"><div class="container"><iframe src="//a.codeforcroatia.org/assets/html/cfc/panel/panel.html" scrolling="no"></iframe></div></div>
+
+    <nav class="navbar navbar-static-top">
+      <div class="container">
+        <div id="cfc-panel-wrapper">
+          <a class="white cfc-ribbon" href="//codeforcroatia.org/"><img src="//a.codeforcroatia.org/assets/html/cfc/panel/assets/images/cfc-ribbon.png" alt="Code for Croatia"></a>
+        </div>
+        <div class="navbar-header">
+          <a class="navbar-brand has-icon" href="/">
+            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+            <span class="text">Cookie traka</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron inverse icon">
+      <div class="container">
+        <h1>CfC Cookie Bar</h1>
+        <p>Code for Croatia traka za kolačiće je jednostavna implementacija za EU zakon o kolačićima</p><!-- EN: Code for Croatia Ribbon & Expanding Panel -->
+      </div>
+      <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <article class="col-md-9">
+          <h2 id="examples">Primjer upotrebe</h2>
+          <p>Koristite traku za kolačiće kada ne pratite posjetitelje odnosno ako vaša stranica ima samo nužne kolačiće bez drugih svrha prikupljanja i obrade (marketinške, personalizacija, praćenje itd).</p>
+          <p>Kada se primijeni na vašu internetsku stranicu, Code for Croatia traka izgledat će ovako:</p>
+          <p><a href="demo.html">Demo</a></p>
+          <h2 id="getting-started">Kako koristiti</h2>
+          <h2>CSS</h2>
+          <p>Dodajte kod u nastavku u <code>&lt;head&gt;</code> odjeljak svoje internetske stranice, kako biste uključili malu datoteku s definicijom stilova:</p>
+          <pre><code class="language-markup">&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"/&gt;</code></pre>
+          <hr>
+          <h2>JavaScript</h2>
+          <p>Dodajte JavaScript prikazan ispod u <code>&lt;body&gt;</code> vaše stranice:</p>
+          <pre><code class="language-markup">&lt;script type="text/javascript"/&gt;
+              window.cookieconsent_options = {"message":"Ova internetska stranica koristi kolačiće. Za više informacija pogledajte našu ","dismiss":"U redu, shvaćam","learnMore":"politiku o kolačićima.","link":"https://codeforcroatia.org/privacy#cookie"};
+          &lt;/script/&gt;
+          &lt;script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeforcroatia/assets@latest/assets/html/cfc/cookie-bar/js/cookie-bar.js"/&gt;&lt;/script/&gt;</code></pre>
+        </article>
+        <aside class="col-md-3">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Želiš programirati?</h3>
+            </div>
+            <div class="panel-body">
+              <a href="https://github.com/codeforcroatia/assets/tree/gh-pages/assets/html/cfc/cookie-bar">Pogledaj na Githubu</a>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Želiš koristiti ovu temu?</h3>
+            </div>
+            <div class="panel-body">
+              <a href="https://codeforcroatia.github.io/codeforcroatia-theme">Pogledaj CfC temu</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <a class="footer-logo" href="https://codeforcroatia.org">
+          <img src="https://a.codeforcroatia.org/assets/media/codeforcroatia/landscape-white-468x122.png" alt="Code for Croatia">
+        </a>
+
+        <div class="footer-links">
+          <ul>
+            <li><a href="https://codeforcroatia.org/privacy">Politika privatnosti</a></li>
+            <li><a href="https://codeforcroatia.org/privacy#cookie">Kolačići</a></li>
+            <li><a href="https://codeforcroatia.org/tos">Uvjeti korištenja</a></li>
+          </ul>
+
+          <ul class="footer-social">
+            <li><a href="https://facebook.com/programirajzahrvatsku">
+              <img src="https://raw.githubusercontent.com/codeforcroatia/codeforcroatia-theme/master/img/facebook-logo-circle.png" alt="Facebook">
+              </a></li>
+            <li>
+              <a href="https://twitter.com/codeforcroatia">
+                <img src="https://raw.githubusercontent.com/codeforcroatia/codeforcroatia-theme/master/img/twitter-logo-circle.png" alt="Twitter">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC7prtSlc8O1YzSwiL8CI6wg">
+                <img src="https://raw.githubusercontent.com/codeforcroatia/codeforcroatia-theme/master/img/youtube-logo-circle.png" alt="YouTube">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/code-for-croatia">
+                <img src="https://raw.githubusercontent.com/codeforcroatia/codeforcroatia-theme/master/img/indesign-logo-circle.png" alt="LinkedIn">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr>
+
+        <p>Code for Croatia je neformalna inicijativa pozitivnih ljudi koji žele napraviti promjenu. Otključavamo zaključane podatke. Bavimo se civilnim hakiranjem, radimo društveno korisne projekte i uvijek smo otvoreni za nove ideje. Code for Croatia je križanje aktivizma, IT-a i istraživačkog novinarstva.</p>
+
+      </div>
+    </footer>
+
+    <!-- CfC App Theme external JS - dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v1/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v1/js/vendor/bootstrap.min.js"></script>
+
+    <!-- CfC App Theme JS -->
+    <script src="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v1/js/plugins.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/codeforcroatia/codeforcroatia-theme@v1/js/main.min.js"></script>
+
+    <!-- CfC Panel JS -->
+    <script src="//cdn.jsdelivr.net/gh/codeforcroatia/assets/assets/html/cfc/panel/assets/js/frontend.js" type="text/javascript"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-47341762-4','auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send','pageview');
+    </script>
+  </body>
 </html>

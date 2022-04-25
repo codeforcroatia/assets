@@ -6,7 +6,7 @@ if (okiConsent && okiConsent.analyticsTrackingID) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  var assetsPath = 'https://a.codeforcroatia.org/html/cfc/consent/assets';
+  var assetsPath = 'https://a.codeforcroatia.org/assets/html/cfc/consent/assets';
 
   // Load Cookie Consent CSS styling.
   var css = 'cookieconsent-css';
@@ -100,7 +100,7 @@ window.addEventListener("load", function () {
         dismiss: 'Allow cookies',
         deny: 'Opt out',
         link: 'See privacy policy',
-        href: "https://codeforcroatia.org/privacy-policy/"
+        href: "https://codeforcroatia.org/privacy"
       },
       type: "opt-out",
 

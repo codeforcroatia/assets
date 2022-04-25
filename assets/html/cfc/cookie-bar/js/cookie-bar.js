@@ -21,7 +21,7 @@
   // The path to built in themes
   // Note: Directly linking to a version on the CDN like this is horrible, but it's less horrible than people downloading the code
   // then discovering that their CSS bucket disappeared
-  var THEME_BUCKET_PATH = '//a.codeforcroatia.org/html/cfc/cookie-bar/css/';
+  var THEME_BUCKET_PATH = '//cdn.jsdelivr.net/gh/codeforcroatia/assets/assets/html/cfc/cookie-bar/css/';
 
   // No point going further if they've already dismissed.
   if (document.cookie.indexOf(DISMISSED_COOKIE) > -1 || (window.navigator && window.navigator.CookiesOK)) {

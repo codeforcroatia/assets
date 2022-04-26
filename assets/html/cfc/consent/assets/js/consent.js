@@ -96,10 +96,10 @@ window.addEventListener("load", function () {
         }
       },
       content: {
-        message: 'This website uses cookies that collect information, to help the maintainers to improve user experience, and report to funders.',
-        dismiss: 'Allow cookies',
-        deny: 'Opt out',
-        link: 'See privacy policy',
+        message: 'Ova internetska stranica koristi kolačiće koji prikupljaju informacije, one pomažu ekipi koja održava aplikaciju da poboljšaju korisničko iskustvo i za izvještavanja o radu.',
+        dismiss: 'Dopusti kolačiće',
+        deny: 'Blokiraj',
+        link: 'Politika privatnosti',
         href: "https://codeforcroatia.org/privacy"
       },
       type: "opt-out",

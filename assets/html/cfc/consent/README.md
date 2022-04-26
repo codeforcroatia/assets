@@ -1,6 +1,6 @@
 # Cookie consent for Code for Croatia websites
 
-Custom implementation of cookie consent for CfC websites.
+Custom implementation of cookie consent for Code for Croatia websites.
 
 ## Requirements
 
